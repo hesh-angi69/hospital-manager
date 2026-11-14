@@ -16,19 +16,7 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 
-/**
- * Reads "Authorization: Bearer <token>" on every request.
- *
- * Validation order:
- *  1. Parse + verify the JWT signature and expiry (JwtService). An HS384
- *     signature covers the whole payload, so editing any claim (e.g. the
- *     role) after issuance breaks the signature and this step rejects it.
- *  2. Re-load the user's CURRENT role from the database via
- *     CustomUserDetailsService, instead of trusting the "role" claim in the
- *     token body. This is defense-in-depth: authorization decisions are
- *     always based on what is in the database right now, never on a claim
- *     that travelled inside an (unencrypted, merely signed) JWT.
- */
+
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 

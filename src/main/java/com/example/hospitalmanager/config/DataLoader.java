@@ -9,7 +9,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
-/** Creates seeded accounts and sample patients on the first start. */
+
 @Component
 public class DataLoader implements CommandLineRunner {
 

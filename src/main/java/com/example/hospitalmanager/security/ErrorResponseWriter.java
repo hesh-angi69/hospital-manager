@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/** Writes a consistent JSON error body from inside the security filter chain. */
 @Component
 public class ErrorResponseWriter {
 

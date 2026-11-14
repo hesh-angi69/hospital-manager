@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/** Links a patient and a doctor at a date and time. */
+
 @Entity
 @Table(name = "appointments")
 @Data

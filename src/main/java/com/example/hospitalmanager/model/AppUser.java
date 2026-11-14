@@ -5,10 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * Login/staff account. username + BCrypt password hash + role.
- * Used for ADMIN, DOCTOR, NURSE, RECEPTIONIST and PATIENT logins.
- */
+
 @Entity
 @Table(name = "app_users")
 @Data

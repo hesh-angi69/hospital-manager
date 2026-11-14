@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-/** Sends the 401 JSON response when authentication is missing/invalid. */
+
 @Component
 public class JsonAuthenticationEntryPoint implements AuthenticationEntryPoint {
 

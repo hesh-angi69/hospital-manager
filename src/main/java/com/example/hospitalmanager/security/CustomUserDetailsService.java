@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/** Loads the user, hash and role from the database for Spring Security. */
+
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 

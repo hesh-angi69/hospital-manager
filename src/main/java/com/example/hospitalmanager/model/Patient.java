@@ -33,6 +33,6 @@ public class Patient {
 
     private String address;
 
-    // optional link back to the login account, if the patient also logs in
+    
     private String username;
 }

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
-/** Sends the 403 JSON response when the authenticated user lacks the required role. */
+
 @Component
 public class JsonAccessDeniedHandler implements AccessDeniedHandler {
 

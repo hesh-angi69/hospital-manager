@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-/** Diagnosis and prescription written by a doctor for a patient. */
+
 @Entity
 @Table(name = "medical_records")
 @Data
